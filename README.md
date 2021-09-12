@@ -11,7 +11,7 @@
 
 First task is to provide coded website according to attached Adobe XD wireframe.
 https://xd.adobe.com/view/a97df4cc-c085-4ab5-49da-a2d7f733b7f6-df4c/?fullscreen
-Password: TestTask123!
+Password: ______
 
 ### Acceptance criteria  
 1. The design should be responsive and be readable on all types of devices;
