@@ -6,14 +6,34 @@ async function getJSON(url){
     }
     let photoBlob= await response.blob();
     let blobText = await photoBlob.text();
-    let jsonObj = JSON.parse(blobText);
+    let jsonObj = JSON.parse(blobText); 
+
     return jsonObj;
 }
 
-function fillGallery(jsonText){
-    let element=document.getElementById('gallery');
-    for(let x = 0;x<jsonText.length;x++){
-        console.log(hi);
+async function fillGallery(url){
+    let jsonObj = await getJSON(url);
+
+    let gallery=document.getElementById('gallery');
+
+    for(let index = 0;index<jsonObj.length;index++){
+        let newPic = document.createElement('div');
+        if(index===0){
+            newPic.className='carousel-item active';
+        }
+        else{
+            newPic.className='carousel-item';
+        }
+
+        let src=jsonObj[index].download_url;
+        let author=jsonObj[index].author;
+
+        newPic.innerHTML=`<img src=${src} class="d-block w-100">
+        <div class="carousel-caption d-md-block">
+        <h5>${author}</h5>
+      </div>`;
+        console.log(newPic);
+        gallery.appendChild(newPic);
     }
 }
 
@@ -24,7 +44,7 @@ function displayTime() {
     document.getElementById('time').textContent = time;
     document.getElementById('date').textContent=dateFormatted;
  }
-const photoJSON = getJSON("https://picsum.photos/v2/list?limit=10");
-fillGallery(photoJSON);
+
+fillGallery("https://picsum.photos/v2/list?limit=10");
 displayTime();
 setInterval(displayTime,1000);
