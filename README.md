@@ -1,9 +1,10 @@
 # GC_TestTask
 ## Build Instructions
 
-## Tech Stack
-- Bootstrap
-- Js Date library
+## Notes and Resources Used
+- MDN docs came in handy as a refresher for the Date object, fetch, asyncronous programming, etc
+- Bootstrap docs were used for Jumbotron, modal, carousel, and general layout
+
 ![image](https://user-images.githubusercontent.com/29872034/132922276-9c134995-4172-4738-90c3-ccca02c58867.png)
 `Original Adobe Mockup`
 -----
