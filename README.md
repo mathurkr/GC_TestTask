@@ -1,13 +1,19 @@
 # GC_TestTask
 ## Build Instructions
-
-## Notes and Resources Used
+1. From the repo homepage, click "Code", then download the .zip file
+2. Unzip the contents, then run the index.html file from a browser
+## Notes and Resources
 - MDN docs came in handy as a refresher for the Date object, fetch, asyncronous programming, etc
 - Bootstrap docs were used for Jumbotron, modal, carousel, and general layout
 - https://www.w3schools.com/howto/howto_js_read_more.asp
-
+### Mockup
 ![image](https://user-images.githubusercontent.com/29872034/132922276-9c134995-4172-4738-90c3-ccca02c58867.png)
-`Original Adobe Mockup`
+
+### Website
+![image](https://user-images.githubusercontent.com/29872034/133055559-72d888da-8a1c-4aa4-98b1-a5777a02bee4.png)
+![image](https://user-images.githubusercontent.com/29872034/133055616-b51dec91-a5c2-41d8-ada6-0bde270a72f2.png)
+![image](https://user-images.githubusercontent.com/29872034/133055464-1527af8e-083a-4e89-a44f-2273415dbd7e.png)
+![image](https://user-images.githubusercontent.com/29872034/133055705-aa68878b-7631-437b-b86e-fce6873b3607.png)
 
 ## Future Improvements
 - Readability of the gallery captions. Bootstrap captions end up on top of the picture.
