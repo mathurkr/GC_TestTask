@@ -29,10 +29,10 @@ async function fillGallery(url){
         let author=jsonObj[index].author;
 
         newPic.innerHTML=`<img src=${src} class="d-block w-100">
-        <div class="carousel-caption d-md-block">
-        <h5>${author}</h5>
+        <div class="carousel-caption d-md-block" >
+        <h5 style="background: rgba(0,0,0,0.5);">${author}</h5>
       </div>`;
-        console.log(newPic);
+
         gallery.appendChild(newPic);
     }
 }

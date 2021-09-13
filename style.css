@@ -3,9 +3,17 @@ body{
 }
 #footer{
     background-color:dodgerblue;
+    color: white;
 }
 
 #mainCard{
     width:60%;
-    background-color:rgba(30, 143, 255, 0.411);
+    background-color:rgba(30, 143, 255, 0.185);
+    color: dodgerblue;
+    font-family: 'Times New Roman', Times, serif;
 }
+
+#shape{
+    background-color:rgba(30, 143, 255, 0.541);
+}
+

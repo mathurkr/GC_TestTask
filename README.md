@@ -7,6 +7,12 @@
 
 ![image](https://user-images.githubusercontent.com/29872034/132922276-9c134995-4172-4738-90c3-ccca02c58867.png)
 `Original Adobe Mockup`
+
+## Future Improvements
+- Readability of the gallery captions. Bootstrap captions end up on top of the picture.
+- Time management; start the task earlier, spread across multiple days.
+- Offset the shape and draw it as an SVG; helps with scaleability and preventing pixelation
+- Accessibility check
 -----
 ### Task 1
 
