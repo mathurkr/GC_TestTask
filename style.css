@@ -1,19 +1,26 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
 }
+#more{
+    display: none;
+}
 #footer{
-    background-color:dodgerblue;
+    background-color:forestgreen;
     color: white;
 }
 
 #mainCard{
     width:60%;
-    background-color:rgba(30, 143, 255, 0.185);
-    color: dodgerblue;
+    background-color:rgba(34, 139, 34, 0.123);
+    color: forestgreen;
     font-family: 'Times New Roman', Times, serif;
 }
 
 #shape{
-    background-color:rgba(30, 143, 255, 0.541);
+    background-color:rgba(34, 139, 34, 0.61);
+    max-height:100%;
 }
 
+@media screen and (max-width: 768px){
+    #mainCard{width:100%}
+}

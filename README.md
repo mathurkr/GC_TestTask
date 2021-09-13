@@ -4,6 +4,7 @@
 ## Notes and Resources Used
 - MDN docs came in handy as a refresher for the Date object, fetch, asyncronous programming, etc
 - Bootstrap docs were used for Jumbotron, modal, carousel, and general layout
+- https://www.w3schools.com/howto/howto_js_read_more.asp
 
 ![image](https://user-images.githubusercontent.com/29872034/132922276-9c134995-4172-4738-90c3-ccca02c58867.png)
 `Original Adobe Mockup`
@@ -12,7 +13,8 @@
 - Readability of the gallery captions. Bootstrap captions end up on top of the picture.
 - Time management; start the task earlier, spread across multiple days.
 - Offset the shape and draw it as an SVG; helps with scaleability and preventing pixelation
-- Accessibility check
+- ARIA accessibility check
+- Read more/less animation
 -----
 ### Task 1
 
@@ -21,8 +23,8 @@ https://xd.adobe.com/view/a97df4cc-c085-4ab5-49da-a2d7f733b7f6-df4c/?fullscreen
 Password: ______
 
 ### Acceptance criteria  
-1. The design should be responsive and be readable on all types of devices;
-2. Use frontend framework (ex. Bootstrap or ZURB Foundation);
+[x] The design should be responsive and be readable on all types of devices;
+[x] Use frontend framework (ex. Bootstrap or ZURB Foundation);
 3. Assets (used for design images/styles/scrips) should be automatically minified and merged. As the final version: 1 CSS file, 1 JS file;
 
 
